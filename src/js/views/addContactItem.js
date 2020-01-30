@@ -60,6 +60,8 @@ export const renderPages=(contacts,page=1,resPerPage=3)=>{
     contacts.slice(start,end+1).forEach(el=>{
         addContactItem(el);
     })
-    pageNumbers(contacts,resPerPage,page)
+    if(contacts.length>0){
+        pageNumbers(contacts,resPerPage,page)
+    }
     
 }

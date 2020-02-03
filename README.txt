@@ -29,3 +29,6 @@ To run the aplication -->
 		This will make your machine a local server
 4. Run http://localhost:8080/ on your web browser, once the server is running.
 
+	OR
+	
+You can simply run index.html file from dist folder.
